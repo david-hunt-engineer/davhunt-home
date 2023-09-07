@@ -46,8 +46,18 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/figtree": "^4.1",
+		"@fontsource/hind": "^5.0.8",
 		"@fontsource/inter": "^4.5.15",
 		"@fontsource/merriweather": "^4.5.14",
-		"@fontsource/ubuntu-mono": "^4.5.11"
+		"@fontsource/open-sans": "^5.0.11",
+		"@fontsource/ostrich-sans": "^5.0.7",
+		"@fontsource/roboto": "^5.0.8",
+		"@fontsource/ubuntu-mono": "^4.5.11",
+		"@fontsource/urbanist": "^5.0.11",
+		"d3": "^7.8.5",
+		"d3-color": "^3.1.0",
+		"d3-interpolate": "^3.0.1",
+		"d3-scale": "^4.0.2"
 	}
 }

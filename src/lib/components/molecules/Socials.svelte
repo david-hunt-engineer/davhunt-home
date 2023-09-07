@@ -8,7 +8,7 @@
 </script>
 
 <div class="socials">
-	<a
+	<!-- <a
 		href="#"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -31,18 +31,18 @@
 		title="See my GitHub profile"
 	>
 		<GitHubIcon />
-	</a>
+	</a> -->
 	<a
-		href="#"
-		target="_blank"
+		href="https://www.linkedin.com/in/david-hunt-datascience/"
+		target="https://www.linkedin.com/in/david-hunt-datascience/"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
 	>
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
-		target="_blank"
+		href="mailto:david@davhunt.com"
+		target="mailto:david@davhunt.com"
 		rel="noopener noreferrer"
 		title="Send an email"
 	>

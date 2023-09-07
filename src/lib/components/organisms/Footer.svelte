@@ -6,41 +6,41 @@
 </script>
 
 <footer>
-	<div class="wave">
+	<div class="wave2">
 		<FooterWave />
 	</div>
 	<div class="content">
-		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
-				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
-		</div>
-		<div class="credits">
-			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
-				>SvelteKit</a
-			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
-		</div>
 		<div class="socials">
 			<Socials />
-			<RssLink />
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</div>
+	<!-- <Spacer /> -->
 </footer>
 
 <style lang="scss">
 	footer {
-		height: 340px;
+		.wave2 {
+			// width: 100%;
+			// height: 120;
+			// viewbox: '0 0 1440 120';
+			// fill: none;
+		}
+		min-height: 25vh;
+
 		width: 100%;
-		background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
+		background: linear-gradient(
+			60deg,
+			var(--color--waves-start-footer) 0%,
+			var(--color--waves-end-footer) 100%
+		);
 		display: grid;
 		grid-template-rows: 120px 1fr;
 
 		.content {
 			display: flex;
+			// height: 100vh;
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;

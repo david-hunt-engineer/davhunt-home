@@ -13,7 +13,8 @@
 		</a>
 		<div class="links">
 			<a href="/blog">Blog</a>
-			<RssLink />
+			<a href="/resume">Resume</a>
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</nav>

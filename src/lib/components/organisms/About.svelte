@@ -14,16 +14,14 @@
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
 			autem provident quam labore, libero beatae praesentium voluptate?
 		</p>
+
 		<div class="socials">
 			<span>Socials:</span>
 			<Socials />
 		</div>
 	</div>
 	<div class="image">
-		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
-		/>
+		<Image src="/images/sample-image.png" alt="Sample for the static template" />
 	</div>
 </section>
 

@@ -6,16 +6,15 @@
 	import Error from '$lib/icons/error.svelte';
 </script>
 
-<Header showBackground />
-
-<main>
+<main class="page">
+	<Header showBackground />
 	<div class="error-page">
 		<div class="container">
 			<h1>Oh no!</h1>
 			<div class="svg-wrapper">
 				<Error />
 			</div>
-			<p>It seems like coffee was spilled all over this page, and now it can't be displayed.</p>
+			<p>404 Page not found.</p>
 			<br />
 			<Button href="/">Start over</Button>
 		</div>
@@ -25,9 +24,10 @@
 <Footer />
 
 <style lang="scss">
-	.error-page {
+	.page {
 		background: var(--color--page-background);
 		position: relative;
+		min-height: 75vh;
 	}
 	.container {
 		display: flex;

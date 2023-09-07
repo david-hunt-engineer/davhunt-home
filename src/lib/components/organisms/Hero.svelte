@@ -3,26 +3,16 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
+	import Socials from '$lib/components/molecules/Socials.svelte';
+	import Image from '../atoms/Image.svelte';
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
+	<h1 class="hello">Hello there.</h1>
 	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+		I'm David Hunt, a <Sparkles>Data Scientist</Sparkles> from Wellington, New Zealand.
 	</p>
-	<div class="ctas">
-		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
-			</Button>
-		</Sparkles>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
-		</Button>
-	</div>
+	<Socials />
 </section>
 
 <style lang="scss">
@@ -43,14 +33,18 @@
 
 		.hello {
 			text-align: center;
+			font-weight: 1000;
+			color: rgba(0, 0, 0, 0.6);
 		}
 
 		.intro {
+			text-align: center;
 			font-weight: 500;
 			font-size: 1.4rem;
-			width: min(100%, 440px);
+			width: min(100%, 480px);
 			display: flex;
 			flex-direction: column;
+			color: rgba(0, 0, 0, 0.7);
 
 			.left {
 				text-align: left;
